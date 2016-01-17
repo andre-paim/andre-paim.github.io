@@ -1,45 +1,94 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <meta name="robots" content="noindex">
-  <title>The perfect Caipirinha!</title>
+  <title>Bootstrap Me</title>
   <meta charset="UTF-8">
-  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 </head>
 <body>
-  <div id="maintext">
-    <p>
-      <img src="caipirinha.jpg">
-    </p>
-    <h1>Learn how to make the perfect Caipirinha in easy steps! </h1>
-    <div>
-        <p>
-        With the recent explosion of Cachaça and its cocktail sidekick, the Caipirinha, more and more bartenders and home entertainers are wondering how to make the perfect Caipirinha. How should I cut the limes? Superfine sugar? Can I use simple syrup? Shaken or stirred? Club soda? How long do I muddle? Cachaça? Don't worry, we make it simple!
-      </p>
-    </div>
-    <div>
-      <h2>Caipirinha Ingredients</h2>
-      <div>
-        <ul>
-        <li>1/2 lime(s)</li>
-        <li>1/2 teaspoon sugar</li>
-        <li>2 ounces cachaca</li>
-        <li>old-fashioned glass</li>
-      </ul>
+  <div class="container">
+    
+    <nav class="navbar navbar-default navbar-static-top">
+    <div class="container-fluid">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">Zzznap</a>
       </div>
-      <div>
-        <h2>Instructions</h2>
-        Slice the lime into 1/2-inch rounds, cube them, and muddle them in an Old-Fashioned glass or small tumbler with the sugar. Add a couple of ice cubes. Pour in the cachaça. Serve with a stirring rod. That's it!
-      </div>
-      <div>
-        <h3 class="take">Our take on the drink</h3>
-        The mojito's Brazilian cousin, the caipirinha might have been invented merely to serve as a perfect example of the compound French adjective, jolie-laide -- literally, "pretty-ugly." Like a cheekbony, slash-mouthed supermodel, this drink somehow repels and attracts. Cachaça, the raw sugarcane spirit from which it is made, looks like vodka and tastes like it was aged in old truck tires. Mixed with lime, sugar, and ice, however, it intoxicates strangely and doesn't taste half bad.
 
-        <p>
-        More info on that: <a href="http://www.businessinsider.com/best-caipirinha-recipe-2014-6?op=1">Other easy ways of doing it!</a>
-        </p>
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
+          <li><a href="#">Link</a></li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="#">Action</a></li>
+              <li><a href="#">Another action</a></li>
+              <li><a href="#">Something else here</a></li>
+              <li role="separator" class="divider"></li>
+              <li><a href="#">Separated link</a></li>
+              <li role="separator" class="divider"></li>
+              <li><a href="#">One more separated link</a></li>
+            </ul>
+          </li>
+        </ul>
+        <form class="navbar-form navbar-left" role="search">
+          <div class="form-group">
+            <input type="text" class="form-control" placeholder="Search">
+          </div>
+          <button type="submit" class="btn btn-default">Submit</button>
+        </form>
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="#">Link</a></li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="#">Action</a></li>
+              <li><a href="#">Another action</a></li>
+              <li><a href="#">Something else here</a></li>
+              <li role="separator" class="divider"></li>
+              <li><a href="#">Separated link</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+    </nav>
+
+    <div class="row">
+      <!-- Put something here -->
+    </div>
+  </div>
+  <div class="jumbotron">
+      <div class="container">
+        <h1 id="banner">Sleep anywhere, anytime!</h1>
+        <p>...</p>
+        <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a></p>
+      </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-4 col-md-2">
+        <h1>I'm on the left</h1>
+      </div>
+      <div class="col-lg-4 col-md-2 hidden-xs">
+        <h1>I'm in the middle</h1>
+      </div>
+      <div class="col-lg-4 col-md-8">
+        <h1>I'm on the right</h1>
       </div>
     </div>
   </div>
+  
 </body>
 </html>
