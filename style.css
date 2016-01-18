@@ -1,9 +1,64 @@
+/*NAVBAR*/
+body { 
+	padding-top: 50px; 
+}
+.navbar-inverse {
+    background-color: black;
+    border-color: black;
+}
+.navbar-inverse .navbar-brand {
+    color: white;
+}
+
+
+/*JUMBOTRON*/
 .jumbotron {
     max-width: 100%;
+    min-height: 600px;
     background-image: url(images/sleep.jpg);
-    /*background-attachment: fixed;*/
+    background-attachment: fixed;
 	background-size: cover;
+}
+.jumbotron .container {
+    max-width: 100%;
+    min-height: 400px;
 }
 #banner {
 	color: white;
+	font-size: 70px;
+}
+.mainbanner h2 {
+	color: white;
+	font-size: 20px;
+	font-weight: normal;
+}
+
+
+/*FEATURES*/
+.features .col-lg-4 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+.features h2 {
+  font-weight: normal;
+}
+.features .col-lg-4 p {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+
+/*BENEFIT*/
+.featurette {
+	background-color: white;
+}
+.featurette-heading {
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -1px;
+}
+
+/*FOOTER*/
+.footer {
+	background-color: white;
 }
