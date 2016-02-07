@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Zzznap!</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  <script src="navigation.js"></script>
+  <script src="buy.js"></script>
+</head>
+<body>
+
+  <!-- START NAVBAR -->
+  <nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">Zzznap</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+       <li><a href="buy.html">Buy it now!</a></li>
+       <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Help <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="faq.html">FAQ</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="aboutus.html">About us</a></li>
+          </ul>
+       </li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+  </nav>
+  <!-- /END NAVBAR -->
+
+<!-- START JUMBOTRON MAIN -->
+  <div class="jumbotronAbout mainbanner">
+      <div class="container text-center">
+        <h1 id="banner">Buy your Zzznap today!</h1>
+      </div>
+      <div class="text-center">
+        <p><h2>We offer several options for you, just pick the ones you want!</h2></p>
+      </div>
+  </div>
+  <!-- /END JUMBOTRON MAIN -->
+
+
+  <!-- START CART -->
+  <div class="container">
+    <h2 class="sub-header">Select the features you want in your Zzznap</h2>
+    <div class="table-responsive">
+      <table class="table table-striped table-hover">
+        <thead>
+          <tr>
+            <th>Feature</th>
+            <th>Description</th>
+            <th>Include/Remove</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="thumbnail">Feature #1</td>
+            <td>Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper.</td>
+            <td id="always">Always included</a></td>
+          </tr>
+          <tr>
+            <td class="thumbnail">Feature #2</td>
+            <td>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</td>
+            <td id="always">Always included</a></td>
+          </tr>
+          <tr>
+            <td class="thumbnail">Feature #3</td>
+            <td>Fusce dapibus, tellus ac cursus commodo.</td>
+            <td id="always">Always included</a></td>
+          </tr>
+          <tr>
+            <td class="thumbnail">Feature #4</td>
+            <td>Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper.</td>
+            <td class="remove"><a href="#">Remove</a></td>
+          </tr>
+          <tr>
+            <td class="thumbnail">Feature #5</td>
+            <td>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</td>
+            <td class="remove"><a href="#">Remove</a></td>
+          </tr>
+          <tr>
+            <td class="thumbnail">Feature #6</td>
+            <td>Fusce dapibus, tellus ac cursus commodo.</td>
+            <td class="remove"><a href="#">Remove</a></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="alert alert-info" role="alert"><strong>Heads up!</strong> Refresh the page if you want to add any feature back again.</div>
+    <hr class="featurette-divider">
+    <div class="text-center"><p><a class="btn btn-success btn-lg buynow" role="button">Buy it now!</a></p></div>
+    <hr class="featurette-divider">
+  </div>
+  <!-- /END CART -->
+
+
+  <!-- START FOOTER -->
+  <div class="container footer">
+  <footer>
+      <p class="pull-right"><a href="#" class="scroll-top">&middot; Back to top &middot;</a></p>
+      <p>&copy; 2016 Zzznap LLC.</p>
+    </footer>
+  </div>
+  <!-- /END FOOTER -->
+
+</body>
+</html>

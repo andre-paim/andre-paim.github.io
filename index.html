@@ -7,6 +7,7 @@
   <link rel="stylesheet" href="style.css">
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
   <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  <script src="navigation.js"></script>
 </head>
 <body>
 
@@ -22,25 +23,21 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="#">Zzznap</a>
+      <a class="navbar-brand" href="index.html">Zzznap</a>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
-        <li><a href="#">Features</a></li>
+       <li><a href="buy.html">Buy it now!</a></li>
        <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Pricing <span class="caret"></span></a>
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Help <span class="caret"></span></a>
           <ul class="dropdown-menu">
-            <li><a href="#">Small</a></li>
-            <li><a href="#">Medium</a></li>
-            <li><a href="#">Large</a></li>
+            <li><a href="faq.html">FAQ</a></li>
             <li role="separator" class="divider"></li>
-            <li><a href="#">Order now!</a></li>
+            <li><a href="aboutus.html">About us</a></li>
           </ul>
-        </li>
-        <li><a href="#">FAQ</a></li>
-        <li><a href="#">About us</a></li>
+       </li>
       </ul>
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
@@ -48,7 +45,8 @@
   <!-- /END NAVBAR -->
 
 
-  <!-- START JUMBOTRON MAIN -->
+  
+<!-- START JUMBOTRON MAIN -->
   <div class="jumbotron mainbanner">
       <div class="container text-center">
         <h1 id="banner">Sleep anywhere, anytime!</h1>
@@ -56,32 +54,32 @@
       <div class="text-center">
         <h2>Zzzznap is an inflatable bag cover that enables you to nap on-the-go, whenever and wherever you want.</h2></p></p>
         <p><h2>Never have to skip your precious nap time again!</h2></p>
-        <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a></p>
+        <p><a class="btn btn-primary btn-lg scroll-link" href="#features" data-id="features" role="button">Learn more</a></p>
       </div>
   </div>
   <!-- /END JUMBOTRON MAIN -->
 
 
   <!-- START FEATURES -->
-  <div class="container features text-center">
+  <div class="container features text-center page-section" id="features">
     <div class="row">
       <div class="col-md-4">
         <img class="img-circle" src="images/thumbs-up.png" width="140" height="140">
         <h2>Easy-to-use</h2>
         <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
-        <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+        <p><a class="btn btn-default" href="#" role="button">Buy it now &raquo;</a></p>
       </div>
       <div class="col-md-4">
         <img class="img-circle" src="images/money.png" width="140" height="140">
         <h2>Great value for money</h2>
         <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
-        <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+        <p><a class="btn btn-default" href="#" role="button">Buy it now &raquo;</a></p>
       </div>
       <div class="col-md-4">
         <img class="img-circle" src="images/loving.png" width="140" height="140">
         <h2>Your friends will love it</h2>
         <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-        <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+        <p><a class="btn btn-default" href="#" role="button">Buy it now &raquo;</a></p>
       </div>
     </div>
   </div>  
@@ -89,30 +87,44 @@
 
 
   <!-- START BENEFITS -->
-  <hr class="featurette-divider">
-  <div class="row featurette">
-  <div class="container benefits">
-    <div class="col-md-7">
-      <h2 class="featurette-heading">Never feel tired again. <span class="text-muted">Sleep like a baby.</span></h2>
-      <p class="lead">We built the ultimate sleeping device using cutting-edge technology. The adaptative design and easy-to-use blowing system ensure that you have an amazing experience. Say goodbye to coffe and energy-drinks. Buy your Zzznap today!</p>
+  <div class="container page-section" id="benefits">
+    <hr class="featurette-divider">
+    <div class="row featurette">
+    <div class="container benefits">
+      <div class="col-md-7">
+        <h2 class="featurette-heading">Never feel tired again. <span class="text-muted">Sleep like a baby.</span></h2>
+        <p class="lead">We built the ultimate sleeping device using cutting-edge technology. The adaptative design and easy-to-use blowing system ensure that you have an amazing experience. Say goodbye to coffe and energy-drinks. Buy your Zzznap today!</p>
+      </div>
+      <div class="col-md-5">
+        <img class="featurette-image img-responsive center-block" src="images/sleeping-baby.jpg">
+      </div>
     </div>
-    <div class="col-md-5">
-      <img class="featurette-image img-responsive center-block" src="images/sleeping-baby.jpg">
+    
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-6 col-md-push-6">
+        <h2 class="featurette-heading">Sleep is good for you. <span class="text-muted">Learn more about it.</span></h2>
+        <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+      </div>
+      <div class="col-md-6 col-md-pull-6">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/gedoSfZvBgE" frameborder="0" allowfullscreen></iframe>
+      </div>
     </div>
+
+    <hr class="featurette-divider">    
   </div>
-  <hr class="featurette-divider">
   <!-- /END BENEFITS -->
 
 
   <!-- START FOOTER -->
   <div class="container footer">
   <footer>
-      <p class="pull-right"><a href="#">Back to top</a></p>
-      <p>&copy; 2016 Zzznap LLC. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+      <p class="pull-right"><a href="#" class="scroll-top">&middot; Back to top &middot;</a></p>
+      <p>&copy; 2016 Zzznap LLC.</p>
     </footer>
   </div>
   <!-- /END FOOTER -->
-
 
 </body>
 </html>
