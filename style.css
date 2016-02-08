@@ -9,7 +9,7 @@ body {
 .navbar-inverse .navbar-brand {
     color: white;
 }
-@media (min-width: @screen-sm-min) {
+@media (min-width: @screen-md-min) {
   .navbar-default .navbar-nav > li a {
     font-size: 20px;
   }
