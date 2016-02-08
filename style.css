@@ -83,10 +83,12 @@ body {
   margin: 20px 0;
 }
 
+
 /*FOOTER*/
 .footer {
 	background-color: white;
 }
+
 
 /*FAQ*/
 .marketing {
@@ -99,6 +101,7 @@ body {
 #always {
   color: #a94442;
 }
+
 
 /*YOUTUBE VIDEO RESIZING*/
 .video-container {
